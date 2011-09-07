@@ -1,7 +1,7 @@
 " Vim syntax file
 " Language: OLGA .key file
 " Maintainer: Anders Schau Knatten (I work for SPT Group, but this is not officially supported)
-" Latest Revision: 09 August 2011
+" Latest Revision: 07 September 2011
 
 let b:current_syntax = "key"
 
