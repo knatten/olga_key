@@ -11,9 +11,9 @@ syn match keyComment "!.*$"
 
 syn match keyKeyword "^ *[A-Z]* "
 syn match keyTerminals "TERMINALS = "
-syn match keyKey "[A-Z0-9]*="he=e-1
-syn match keyValue "[A-Za-z0-9_\-\+\.\/ \"\(\)@]*,"
-syn match keyValue2 "[A-Za-z0-9_\-\+\.\/ \"\(\)@]*$"
+syn match keyKey "[A-Z0-9_]*\ *="he=e-1
+syn match keyValue "[A-Za-z0-9_\-\+\.\/ \"\(\)@:;]*,"
+syn match keyValue2 "[A-Za-z0-9_\-\+\.\/ \"\(\)@:;]*$"
 
 hi def link keyEnd Type
 
