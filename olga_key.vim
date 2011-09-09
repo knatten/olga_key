@@ -3,8 +3,6 @@
 " Maintainer: Anders Schau Knatten (I work for SPT Group, but this is not officially supported)
 " Latest Revision: 0.1 07 September 2011
 
-let b:current_syntax = "key"
-
 syn keyword keyEnd ENDCASE ENDLIBRARY ENDNETWORKCOMPONENT
 
 syn match keyComment "!.*$"
